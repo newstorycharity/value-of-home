@@ -4,10 +4,200 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Value of Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1 class="text-7xl font-extralight italic leading-loose text-yellow-400">sayonara world</h1>
+<div>
+<!-- navbar -->
+<nav class="bg-black opacity-90">
+  <div class="max-w-full py-4">
+    <div class="flex justify-between h-12">
+      <div class="flex">
+        <div class="ml-10 md:ml-22 lg:ml-28 xl:ml-52 flex-shrink-0 flex items-center">
+          <img class="h-8 w-auto" src="../img/NewStory_icon_white (2).png" alt="Workflow">
+        </div>
+      </div>
+      <div class="flex items-center justify-items-end">
+        <div class="hidden md:block flex-shrink-0">
+          <button type="button" class="transition delay-300 hover:delay-300 px-20 py-7 text-md tracking-wider font-medium rounded-sm text-white bg-primary hover:bg-hover focus:outline-none focus:ring-none focus:ring-none focus:ring-none">
+            <span>DONATE</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- containers -->
+<body class="bg-white">
+<div class="grid grid-cols-1 md:grid md:grid-cols-2 justify-items-center md:mx-20 xl:mx-40 my-0">
+  <!-- column 1 -->
+  <div class ="snap-x md:overflow-auto md:h-screen px-6 md:px-0 container w-12/12">
+    <img class="snap-center flex-auto grid grid-cols-1 justify-items-center xl:h-100% w-100%" src="../img/house-1.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-2.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-3.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-4.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-5.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-6.png">
+    <img class="snap-center flex-auto grid grid-cols-2 justify-items-start xl:h-100% w-100%" src="../img/house-7.png">
+  </div>
+  <!-- column 2 -->
+  <div class ="bg-white px-6 md:px-8 container w-12/12">
+    <!-- house overview -->
+    <div class="border-b-2 border-gray-100">
+      <ul role="list" class="divide-y divide-gray-200">
+        <li class="py-8 px-6 md:px-0">
+          <img class="h-5 w-auto" src="../img/newstory_logo_black.png">
+        </li>
+      </ul>
+    </div>
+    <div class="grid grid-cols-2 gap-0 justify-items-start items-end">
+      <p class="py-4 text-3xl md:text-4xl text-black font-bold tracking-wide">$10,000</p>
+      <p class="py-4 text-md md:text-lg text-black font-normal tracking-wide"><span class="font-bold">2</span> bd   <span class="text-gray-400 font-light">|</span>   <span class="font-bold">1</span> ba   <span class="text-gray-400 font-light">|</span>   <span class="font-bold">560</span> sqft</p>
+    </div>
+    <div class="grid grid-cols-1 gap-0 justify-items-start items-end">
+      <p class="py-3 text-lg text-black font-normal tracking-wide">📍 123 Nacajuca Street, Nacajuca, Mexico</p>
+      <p class="py-1 text-md text-black font-normal tracking-wide"><span class="font-bold">New Construction</span>  <span class="text-gray-400 font-light">|</span>  Nestimate: $28,876</p>
+      <p class="py-1 text-md text-black font-normal tracking-wide"><span class="font-bold">Estimated Payment:</span> $100 / month</p>
+    </div>
+    <button class="bg-primary hover:bg-hover my-4 px-10 py-7 text-white font-medium tracking-wider rounded-sm">REQUEST A VISION TRIP</button>
+    <!-- Sections -->
+    <div>
+      <div class="sm:hidden">
+        <label for="tabs" class="sr-only">Select a tab</label>
+        <!-- Use an "onChange" listener to redirect the user to the selected tab URL. -->
+        <select id="tabs" name="tabs" class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm md:text-lg rounded-md">
+          <options selected>Overview</options>
+
+          <option>Facts and Features</option>
+
+          <option>Home Value</option>
+
+          <option>Monthly Cost</option>
+        </select>
+      </div>
+      <div class="hidden sm:block">
+        <div class="border-b border-gray-200">
+          <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+            <a href="#" class="border-primary text-primary whitespace-nowrap  hover:text-primary hover:border-primary whitespace-nowrap py-4 px-1 border-b-2 font-semibold text-md tracking-wide">Overview</a>
+
+            <a href="#" class="border-transparent text-gray-500 hover:text-primary hover:border-primary whitespace-nowrap py-4 px-1 border-b-2 font-semibold text-md tracking-wide">Facts and Features</a>
+
+            <a href="#" class="border-transparent text-gray-500 hover:text-primary hover:border-primary whitespace-nowrap py-4 px-1 border-b-2 font-semibold text-md tracking-wide" aria-current="page">Home Value</a>
+
+            <a href="#" class="border-transparent text-gray-500 hover:text-primary hover:border-primary whitespace-nowrap py-4 px-1 border-b-2 font-semibold text-md tracking-wide">Monthly Cost</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Overview -->
+    <div class="bg-white px-4 overflow-y-auto h-screen">
+      <div class="container pt-8 pb-2 pl-6">
+        <ul class="">
+          <li class="py-2 text-md text-dark font-normal tracking-wide">Single Family Residence</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">Built in 2022</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">2 Bedrooms</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">1 Bathroom</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">Living Room</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">Kitchen</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">Ecoblock</li>
+          <li class="py-2 text-md text-dark font-normal tracking-wide">560 sqft</li>
+        </ul>
+      </div>
+      <div class="overflow-container pt-2 pb-8 border-b-2 border-gray-100">
+        <div class="grid grid-cols-none gap-0 justify-items-start items-end">
+          <p class="py-4 text-3xl text-black font-bold tracking-wide">Overview</p>
+        </div>
+        <div class="grid grid-cols-1 gap-0 justify-items-start items-end">
+          <p class="py-3 text-md text-dark font-normal tracking-wide">Location! Location! Location! This multigenerational home is ready to make a family’s DREAMS come true. 2 BR, 1 bath, with the easy possibility to expand when you start your business or your in-laws want to move in. Home has DIRECT access to clean water, sanitation, & electricity!! Cool Roof technology combats climate change by reducing the amount of heat absorbed from the sun, which cools the inside of the home by up to 9 degrees Fahrenheit. Home is close to public transportation, schools, and health services. Friendly neighborhood that’s safe for children and empowering for entrepreneurs.</p> 
+          <p class="py-3 text-md text-dark font-normal tracking-wide">Families like yours in the community helped design the homes, making it human-centered for YOUR FAMILY. Walls are made of Ecoblock material, which is stronger than traditional cinder blocks and reduces C02 emissions. Can withstand earthquake!! Windows are in the PERFECT position to help you start a business out of your own home. Roof is strong and does the best job of keeping you dry during the rainy season. Your family will own this land & home FOREVER.</p>
+        </div>
+      </div>
+      <!-- Facts and Features -->
+      <div class="overflow-facts-and-features pt-2 pb-8 border-b-2 border-gray-100">
+        <div class="grid grid-cols-none gap-0 justify-items-start items-end">
+          <p class="py-4 text-3xl text-black font-bold tracking-wide">Facts and Features</p>
+        </div>
+        <div class="grid grid-cols-1 gap-0 justify-items-start items-end">
+          <p class="py-3 text-md text-dark font-normal tracking-wide">Home impacts every aspect of life, for every generation.</p> 
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Safety</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Locked doors and windows give families the sense of security it takes to work, play, and sleep with confidence.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Education</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Children can better focus on learning and growing into their full potential when they can sleep and study in peace.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Economic Opportunity</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Families can build a career when they have the margin to grow their skills rather than living to survive. And since the home is in your family name, you can pass it down to your children.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Healh & Sanitation</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">When families can drink clean water and wash their hands at their home, they can stay healthy for the long haul. Cement floors also reduce vulnerabilities to contract diseases.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Sustainable</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Our human-centered design process touches on 15 of the 17 United Nation’s Sustainable Development Goals.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Dignity</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Families help design their homes and they make affordable monthly payments toward owning their home.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Memories</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">OHost meals and make memories by having a safe space for your family and friends.</li>
+          </ul>
+          <p class="py-2 text-md text-dark font-bold tracking-wide">Dreams</p>
+          <ul class="list-disc list-outside">
+            <li class="py-2 text-md text-dark font-normal tracking-wide">Every family deserves the opportunity to live in a safe home where they can build their big dreams.</li>
+          </ul>
+        </div>
+      </div>
+    <!-- Home Value -->
+    <div class="overflow-facts-and-features pt-2 pb-8 border-b-2 border-gray-100">
+      <div class="grid grid-cols-none gap-0 justify-items-start items-end">
+        <p class="py-4 text-3xl text-black font-bold tracking-wide">Home Value</p>
+      </div>
+      <div class="bg-gray-50 mx-10 bg-none py-10 px-6 w-2xl grid grid-cols-1 gap-0 justify-items-center items-end">
+        <p class="py-0 text-xl text-dark font-normal tracking-wide">Nestimate:</p> 
+        <p class="py-0 text-2xl text-dark font-bold tracking-wide">Priceless</p> 
+      </div>
+      <div class="grid grid-cols-1 gap-0 justify-items-start items-end">
+        <p class="py-3 text-md text-dark font-normal tracking-wide">A $10,000 donation moves a family into safe shelter — forever.</p> 
+      </div>
+    </div>
+    <!-- Monthly Cost -->
+    <div class="overflow-facts-and-features pt-2 pb-8 border-b-2 border-gray-100">
+      <div class="grid grid-cols-none gap-0 justify-items-start items-end">
+        <p class="py-4 text-3xl text-black font-bold tracking-wide">Monthly Cost</p>
+      </div>
+      <ul class="list-disc list-outside grid grid-cols-1 gap-0 justify-items-start items-end">
+        <li class="py-3 text-md text-dark font-normal tracking-wide">The families we serve make long term repayments towards their new home.</li> 
+        <li class="py-3 text-md text-dark font-normal tracking-wide">Since a stable home helps families grow their income, people are often proud to make these repayments. Monthly payments help unbanked families build a credit history and a sense of ownership.</li> 
+        <li class="py-3 text-md text-dark font-normal tracking-wide">Our team recycles the repayment funds into our home building efforts. We’ve found this repayment model to multiply the impact of philanthropy while also empowering families to best care for their new homes.</li> 
+      </ul>
+    </div>
+    <!-- Neighborhood -->
+    <div class="overflow-facts-and-features pt-2 pb-8 border-b-2 border-gray-100">
+      <div class="grid grid-cols-none gap-0 justify-items-start items-end">
+        <p class="py-4 text-3xl text-black font-bold tracking-wide">Neighborhood</p>
+      </div>
+      <div class="grid grid-cols-1 gap-0 justify-items-start items-end">
+        <p class="py-3 text-md text-dark font-normal tracking-wide"><b>Get to know the neighborhood.</b> New Story builds communities in close proximity to town centers to ensure families have access to resources and services.</p> 
+      </div>
+      <div class="pt-3 list-outside grid grid-cols-2 justify-items-start gap-0 max-w-md">
+        <img class="ml-10 md:ml-28 h-12 w-auto" src="../img/Walk.png">
+        <p class="py-0 text-md text-dark font-bold tracking-wide">Walk Score<br><span class="font-normal">100/100 (not car dependent)</span></p> 
+      </div>
+      <div class="py-3 list-outside grid grid-cols-2 justify-items-start gap-0 max-w-md">
+        <img class="ml-10 md:ml-28 h-12 w-auto" src="../img/transit.png">
+        <p class="py-0 text-md text-dark font-bold tracking-wide">Transit Score<br><span class="font-normal">00 / 100 (great transit options)</span></p> 
+      </div>
+      
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
 </body>
 </html>
