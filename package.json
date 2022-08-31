@@ -8,6 +8,7 @@
   },
   "scripts":{
     "start": "npx http-server -p 8080 -c-1",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
+    "live": "surge --domain value-of-home.surge.sh"
   }
 }

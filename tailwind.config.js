@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './public/index.html',
+    './value-of-home/index.html',
     './src/input.css',
   ],
   theme: {
