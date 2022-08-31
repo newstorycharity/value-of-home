@@ -682,16 +682,20 @@ video {
   height: 2rem;
 }
 
-.h-5{
-  height: 1.25rem;
-}
-
 .h-96{
   height: 24rem;
 }
 
+.h-5{
+  height: 1.25rem;
+}
+
 .h-20{
   height: 5rem;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .w-auto{
@@ -920,9 +924,9 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-7{
@@ -970,9 +974,9 @@ video {
   padding-right: 0.25rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-10{
@@ -995,9 +999,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pl-3{
@@ -1034,6 +1038,14 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
 }
 
 .text-3xl{
@@ -1149,10 +1161,6 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-300{
-  transition-delay: 300ms;
-}
-
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
   border-color: rgb(0 186 224 / var(--tw-border-opacity));
@@ -1166,10 +1174,6 @@ video {
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(0 186 224 / var(--tw-text-opacity));
-}
-
-.hover\:delay-300:hover{
-  transition-delay: 300ms;
 }
 
 .focus\:border-primary:focus{
@@ -1211,14 +1215,19 @@ video {
     padding-bottom: 1rem;
   }
 
-  .sm\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .sm\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .sm\:py-7{
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
+  }
+
+  .sm\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:text-lg{
@@ -1306,14 +1315,14 @@ video {
     overflow: auto;
   }
 
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .md\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .md\:px-20{
